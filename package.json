@@ -1,0 +1,18 @@
+{
+  "name": "bonheurbot",
+  "version": "2.0.0",
+  "description": "BonheurBot Trading Robot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
